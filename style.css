@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+    font-weight: 500, 700, 900 ;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+/* hero starts here */
+
+#hero .hero-all{
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+}
+
+
+#hero img{
+    border-radius: 0.5rem;
+}
+/* hero ends here */
+
+/* summary starts here */
+#summary h1{
+ 
+ text-align: center;
+ font-size: 2rem;
+ color: hsl(223, 47%, 23%);
+
+}
+
+#summary p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 1.2rem;
+
+}
+
+/* summary ends here */
+
+
+/* music starts here */
+
+#music{
+   
+    width: 370px;
+    margin-left: 35px;
+    border-radius: 0.5rem;
+    background-color: hsl(229, 78%, 95%);
+}
+
+#music .music1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    
+}
+
+
+
+#music a{
+    margin-left: 130px;
+}
+
+#music .an{
+    margin-left: 20px;
+    line-height: 27px;
+    
+}
+
+#music h2{
+    font-size: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+#music p{
+   
+
+   color: hsl(224, 23%, 55%);
+}
+
+/* music ends here */
+
+/* footer starts here */
+footer{
+    height: 18vh;
+
+}
+
+footer .cta{
+    padding: 13px;
+    width: 350px;
+    border-radius: 0.7rem;
+    margin-left: 50px;
+    color: whitesmoke;
+    background-color:hsl(223, 97%, 56%) ;
+    font-size: 1rem;
+    box-shadow: 0px 0px 40px hsl(224, 30%, 42%) ;
+    
+}
+
+footer p{
+    color: hsl(224, 30%, 42%);
+    text-align: center;
+}
+
+
+footer span{
+    color: crimson;
+    font-style: oblique;
+}
+/* footer ends here */
